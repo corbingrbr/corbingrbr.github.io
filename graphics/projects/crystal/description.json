@@ -1,0 +1,3 @@
+{
+    "description" : "This project is a user interactive animation that demonstrates the structure of three cubic crystal lattice: simple, body-centered, and face-centered. The simulation has been constructed in C++/OpenGL as well as Javascript/WebGL. Follow link to try it out. "
+}

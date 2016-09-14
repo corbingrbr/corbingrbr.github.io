@@ -1,0 +1,151 @@
+#container {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 57px;
+    width: 228px;
+}
+
+#logo {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 57px;
+    width: 228px;
+}
+
+
+.blue {
+    background: #000040;
+}
+
+.green {
+    background: #003300;
+}
+
+.red {
+    background: #660000;
+}
+
+.rust {
+    background: #EBA133;
+}
+
+.grey {
+    background: #424242;
+}
+
+#raphicsBorder {
+    height: 37px;
+    position: relative;
+    top: 6px;
+    margin: 0px;
+    background: #424242;
+}
+
+#epositoryBorder {
+    position: relative;
+    left: 6px;
+    bottom: 6px;
+    padding: auto;
+    background: #424242;
+}
+
+#raphics {
+    padding-top: 10px;
+}
+
+#epository {
+    padding-left: 11px;
+}
+
+#ackpackBorder {
+    position: relative;
+    left: 6px;
+    bottom: 6px;
+    background: #424242;
+}
+
+#ackpack {
+    padding-left: 11px;
+}
+
+#esumeBorder {
+    height: 37px;
+    position: relative;
+    top: 6px;
+    background: #424242;
+}
+
+#esume {
+    padding-top: 10px;
+}
+
+#backpack {
+    position: relative;
+}
+
+#repository {
+    position: relative;
+}
+
+.block {
+    width: 45px;
+    height: 45px;
+    margin: 6px 0px 6px 6px;
+    color:#DDDDDD;
+    //color: #A6A6A6;
+    font-size: 31;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+}
+
+.phrase {
+    height: 57px;
+    width: 57px;
+    float: left;
+    display: flex;
+    //background: white;
+    background: #A6A6A6;
+    position: relative;
+}
+
+p {
+    color: #DDDDDD;
+    font-family: "Courier";
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#graphics p {
+    height: 30px;
+}
+
+#resume p {
+    height: 30px;
+}
+
+.textAnimation {
+    animation: type 1.0s steps(60, end);
+}
+
+@keyframes type {
+    from { width: 0; }
+}
+
+@keyframes type2 {
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; }
+}
+
+body {
+    cursor: pointer;
+    font-family: "Courier";
+    font-weight: bold;
+}

@@ -1,0 +1,92 @@
+body {
+    background: #424242;
+}
+
+#navigation {
+    position: relative;
+    top: 20px;
+    color: #414141;
+    background: #A6A6A6;
+    width: 964px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid #414141;
+    z-index: 2;
+}
+
+#navigation p {
+    position: relative;
+    left: 10px;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:visited { text-decoration: none; color:#414141;}
+a:hover, a:active { text-decoration: underline; color:white;}
+
+#container {
+    width: 960px;
+    margin: auto;
+    margin-top: 26px;
+    border: 2px solid #A6A6A6;
+}
+
+.hover {
+    margin: 0px;
+    border: 12px solid #888888;
+}
+
+#repos {
+    background: #A6A6A6;
+    width: 100%;
+    color: #414141;
+}
+
+.repo {
+    width: 100%;
+    height: 27px;
+    border-bottom: 1px solid #414141;
+}
+
+.repo:hover {background-color: white; }
+
+#repos th, td {
+    padding-left: 20px;
+}
+
+#repos th {
+    text-align: left;
+    font-size: 17px;
+    border-bottom: 2px solid #414141;
+}
+
+.repo {
+    cursor: pointer;
+}
+
+.descriptions {
+    width: 50%;
+    font-size: 15px;
+}
+
+.tags {
+    width: 30%
+}
+
+.titles {
+    width: 20%;
+}
+
+.OpenGL { color: #5586A4; }
+.Javascript { color: #FF944D; }
+.C { color: #B32400; }
+.Java { color: #CC5200; }
+.Python { color: #336600;}
+.CPP { color: #990000; }
+.HTML { color: #00B3B3; }
+.WebGL { color: #2A52A2; }
+.Processing { color: #0D4575; }
+.CSS { color: #FF0066; }
+.PHP { color: #8892BF; }
