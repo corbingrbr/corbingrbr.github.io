@@ -73,8 +73,7 @@ a:hover, a:active { text-decoration: underline; color:white;}
 
 #summary {
     width: 950px;
-    //height: 118px;
-    height: 80px;
+    height: 81px;
     background: #585858;
     position: relative;
     top: 470px;
@@ -103,7 +102,7 @@ a:hover, a:active { text-decoration: underline; color:white;}
     padding: 0px;
     background: #A6A6A6;
     position: relative;
-    bottom: 40px;
+    bottom: 39px;
 }
 
 #projects {
