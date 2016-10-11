@@ -33,6 +33,10 @@ $("#resume").click(function() {
     window.open("resume/resume.html", "_self");
 });
 
+$("#backpack").click(function() {
+    window.open("backpack/backpack.html", "_self");
+});
+
 // GRAPHICS
 $("#graphics").mouseenter(function() {
 

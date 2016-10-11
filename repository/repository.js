@@ -36,7 +36,7 @@ var Repository = {
                 new Repo("Crystal Lattice", "CrystalLattice", "Visualization of three cubic unit cells", ["C++", "OpenGL"]),
                 new Repo("WebGLCL", "web-gl-cl", "Translation of Crystal Lattice to WebGL", ["Javascript", "WebGL"]),
                 new Repo("Flood Fill", "https://github.com/MatheusFaria/flood-fill", "Voxel-based puzzle platformer", ["C++", "OpenGL"]),
-                new Repo("GRBR", "grbr", "This website", ["HTML", "CSS", "Javascript"]),
+                new Repo("GRBR", "corbingrbr.github.io", "This website", ["HTML", "CSS", "Javascript"]),
                 new Repo("RayTrace", "RayTrace", "A scene rendering process", ["C++"]),
                 new Repo("Obj2SpringSystem", "Obj2SpringSystem", "Convert objs to spring systems", ["C++", "OpenGL"]),
                 new Repo("Light Lab", "LightLab", "Pattern configurable LED poi", ["C++", "HTML", "CSS", "Javascript"]),
