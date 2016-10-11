@@ -7,8 +7,8 @@ var border = 4;
 
 var raphicsExp = 106;
 var esumeExp = 80;
-var epositoryExp = 240;
-var ackpackExp = 185;
+var epositoryExp = 250;
+var ackpackExp = 192;
 
 function strpx(numPixels) {
     return numPixels.toString() + "px";
