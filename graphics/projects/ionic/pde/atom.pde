@@ -235,6 +235,7 @@ public class Atom {
       translate(pv.x*size + u*eTransVec.x, pv.y*size +  u*eTransVec.y);
       rotate(theta+HALF_PI);
       fill(clr.x, clr.y, clr.z);
+      textSize(textSz);
       text("x", 0, 0);
       popMatrix();
   }
